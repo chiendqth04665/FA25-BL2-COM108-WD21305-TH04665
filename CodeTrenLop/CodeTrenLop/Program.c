@@ -52,7 +52,7 @@ void lapChucNang(int chonChucNang)
 			sapXepPhanTuMang();
 			break;
 		case 3:
-			// ham goi chuc nang 3
+			//ham goi chuc nang 3
 			break;
 		default:
 			printf("Chon sai. Chuc nang hop le [0-3]");
