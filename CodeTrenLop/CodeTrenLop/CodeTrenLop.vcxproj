@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f5a5e82f-9686-4bb8-9c56-a630923571d6}</ProjectGuid>
-    <RootNamespace>WD21305_BaiTrenLop</RootNamespace>
+    <ProjectGuid>{2ce2017a-1d06-426d-b0b0-247e24716f3f}</ProjectGuid>
+    <RootNamespace>CodeTrenLop</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
