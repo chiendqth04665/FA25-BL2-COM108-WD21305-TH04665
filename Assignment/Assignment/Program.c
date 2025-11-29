@@ -290,7 +290,7 @@ int main()
 	{
 		printf("MENU\n");
 		printf("1. Kiem tra so nguyen to\n");
-		printf("2. Tim UCLN - BCNN\n");
+		printf("2. Tim Uoc va Boi chung nho nhat\n");
 		printf("3. Tinh tien Karaoke\n");
 		printf("4. Tinh tien dien\n");
 		printf("5. Doi tien\n");
