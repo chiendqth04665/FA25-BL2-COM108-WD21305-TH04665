@@ -43,9 +43,14 @@ void demoMang2Chieu()
 	//string - string.h
 	char mangKyTu[10] = "ANH";
 	//scanf(" %c"
-	puts(mangKyTu);
+	//gets(mangKyTu);
+	for (int i = 0; i < 3; i++)
+	{
+		scanf(" %c", &mangKyTu[i]);
+	}
 	//printf(" %c"
-	gets(mangKyTu);
+	puts(mangKyTu);
+
 
 	int array[2][3];
 	for (int j = 0; j < 3; j++)
