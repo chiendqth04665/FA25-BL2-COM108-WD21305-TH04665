@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 void kiemTraSoNguyen()
 {
@@ -71,6 +73,52 @@ void demoMang2Chieu()
 	}
 }
 
+void demoString()
+{
+	//string - string.h
+	//char mangKyTu[50] = "Nam";
+	//scanf(" %c"
+	//gets(mangKyTu);
+	//while (getchar() != '\n');
+
+	//printf("Nhap du lieu String: ");
+	
+	//fgets(mangKyTu, sizeof(mangKyTu), stdin);
+	
+	//loop + printf(" %c\n"
+	//printf("%s", mangKyTu);
+	//printf("\n");
+	//puts(mangKyTu);
+	//printf("%d", strlen(mangKyTu) - 1);
+	//printf("\n");
+
+	printf("%d", strcmp ("B", "b"));
+	printf("\n");
+
+	char str[5] = "ABC";
+	printf("%s", strrev(str));
+	printf("\n");
+
+	printf("%s", strlwr(str));
+	printf("\n");
+
+	printf("%s", strupr(str));
+	printf("\n");
+
+	printf("%s", strstr("ABC", "D"));
+	printf("\n");
+
+	if (strstr("ABC", "D") != NULL)
+	{
+		printf(strstr("ABC", "D"));
+	}
+	else
+	{
+		printf("NOT found");
+	}
+	printf("\n");
+}
+
 void lapChucNang(int chonChucNang)
 {
 	int tiepTuc = 1;
@@ -86,6 +134,9 @@ void lapChucNang(int chonChucNang)
 			break;
 		case 3:
 			demoMang2Chieu();
+			break;
+		case 4:
+			demoString();
 			break;
 		default:
 			printf("Chon sai. Chuc nang hop le [0-3]");
@@ -112,9 +163,11 @@ int main()
 		printf("\n");
 		printf("3. Demo mang 2 chieu");
 		printf("\n");
+		printf("4. Demo String");
+		printf("\n");
 		printf("0. Thoat");
 		printf("\n");
-		printf("Hay chon chuc nang [0-3]: ");
+		printf("Hay chon chuc nang [0-4]: ");
 		scanf("%d", &chonChucNang);
 		lapChucNang(chonChucNang);
 	} while (chonChucNang != 0);
