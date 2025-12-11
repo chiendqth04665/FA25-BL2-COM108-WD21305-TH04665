@@ -29,7 +29,7 @@ int main()
         if (scanf("%d", &chon) != 1) { clearBuffer(); printf("Nhap khong hop le.\n"); continue; }
         clearBuffer();
 
-        if (chon >= 1 && chon <= 10)
+        if (chon >= 1 && chon <= 3)
         {
             int lap = 1;
             int chucNangHienTai = chon;
